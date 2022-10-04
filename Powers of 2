@@ -1,0 +1,23 @@
+package kata
+ import "math"
+
+func PowersOfTwo(n int) []uint64 {
+  
+  base := []uint64{}
+  
+  
+  for i := 0; i <= n; i ++{
+    
+    result := math.Pow(2,float64(i))
+    base = append(base, uint64(result))
+    
+  }
+  
+  return base
+  
+}
+
+func main (){
+  
+  PowersOfTwo(4)
+}
