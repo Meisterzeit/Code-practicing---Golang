@@ -1,0 +1,19 @@
+package multiply
+
+import "fmt"
+
+func main (){
+  
+  
+var a int = 4
+var b int = 3
+  
+ fmt.Println(Multiply(a,b))
+  
+}
+
+func Multiply(a, b int) int {
+  
+ return a * b 
+ 
+}
