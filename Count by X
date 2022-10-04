@@ -1,0 +1,21 @@
+package kata
+
+
+  func CountBy(x, n int) []int {
+
+  sliceMulti := []int{}
+    
+  for i := 1; i <= n; i++ {
+
+    sliceMulti = append(sliceMulti, i*x)
+
+  }
+
+  return sliceMulti
+
+}
+  
+func main(){
+  
+  CountBy(2,10)
+}
