@@ -1,0 +1,13 @@
+package kata
+
+func Goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals int) int {
+  var total int 
+  total = laLigaGoals + copaDelReyGoals + championsLeagueGoals
+  return total
+}
+
+func main(){
+  
+  Goals(13,10,10)
+  
+}
