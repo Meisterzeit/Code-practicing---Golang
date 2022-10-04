@@ -1,0 +1,12 @@
+package kata
+
+
+func Between(a, b int) []int {
+      contador := []int{}
+  
+  for i:= a; i < b + 1; i++{
+    contador = append(contador,i)
+  }
+  
+  return contador
+}
