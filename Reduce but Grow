@@ -1,0 +1,13 @@
+package kata
+
+func Grow(arr []int) int{
+  
+  multX := 1
+  
+  for i := 0; i < len(arr); i++{
+    
+    multX *= arr[i]
+  }
+  
+  return multX
+}
