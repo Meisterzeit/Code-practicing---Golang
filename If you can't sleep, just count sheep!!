@@ -1,0 +1,19 @@
+package kata
+
+import "fmt"
+import "strings"
+
+
+func countSheep(num int) string {
+  var murmur strings.Builder
+
+  for i := 1; i <= num; i++ {
+    //funcao permite armazenar uma string e armazenar para um return
+    murmur.WriteString(fmt.Sprintf("%d sheep...", i))
+  }
+  return murmur.String()
+}
+func main(){
+  
+ countSheep(10)
+}
