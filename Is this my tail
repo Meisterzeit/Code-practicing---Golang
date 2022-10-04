@@ -1,0 +1,15 @@
+package kata
+
+func CorrectTail(body string, tail rune) bool {
+//  if rune(body[0]) == tail {
+//    return false
+//  }
+//  return true
+// if rune ()
+  lenBody := len(body)
+  if lenBody <= 0 {
+    return false
+  }
+  lastChar := body[lenBody -1]
+  return rune(lastChar) == tail
+}
